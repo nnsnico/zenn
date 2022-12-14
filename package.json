@@ -1,0 +1,31 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnsnico/zenn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnsnico/zenn/issues"
+  },
+  "homepage": "https://github.com/nnsnico/zenn#readme",
+  "dependencies": {
+    "textlint": "^12.2.4",
+    "zenn-cli": "^0.1.133"
+  },
+  "devDependencies": {
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+    "textlint-rule-period-in-list-item": "^0.3.3",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
+  }
+}
